@@ -27,15 +27,19 @@
 .profile_img { text-align: center; width: 300px; height: 250px; position: absolute; top: 35%; left: 40%; transform: translate(-50%, -50%); } 
 .profile_img img { width: 250px; height: 250px; border-radius: 100%; } 
 
-.modify_profile { text-align: center; width: 250px; height: 100px; background-color: aqua; position: absolute; top: 55%; left: 40%; transform: translate(-50%, -50%); } 
+.modify_profile { text-align: center; width: 250px; height: 100px; position: absolute; top: 55%; left: 40%; transform: translate(-50%, -50%); } 
 
-.modify_profile button { width: 120px; height: 50px; position: relative; } 
+.modify_profile button { cursor:pointer; width: 120px; height: 50px; position: relative; border: none; border-radius: 100px; }
+.modify_profile button:hover { transition:0.2s ; color: #fff; background-color: blueviolet; width: 140px; }
+.modify_profile button:not(:hover) { transition:0.2s; }
+
+.modify_profile button:active { color: #fff; background-color: #000;}
 
 .username { text-align: center; font-size: 22px; width: 350px; height: 110px; line-height: 135px; position: absolute; top:30%; left: 60%; transform: translate(-50%, -50%); border-bottom: 1px solid violet; } 
 
 .introduce { text-align: left; width: 350px; height: 230px; position: absolute; top:49%; left: 60%; transform: translate(-50%, -50%); } 
 
-.work { text-align: center; width: 350px; height: 100px; background-color: rgb(204, 176, 142); position: absolute; top:80%; left: 35%; transform: translate(-50%, -50%); } 
+.work { text-align: center; width: 350px; height: 100px; position: absolute; top:80%; left: 35%; transform: translate(-50%, -50%); } 
 
 .preview_img { text-align: center; width: 350px; height: 640px; position: absolute; top: 125%; left: 35%; transform: translate(-50%, -50%); } 
 .preview_img img { border-radius: 30%; position:relative; width:200px; margin-bottom: 20px; height:200px; } 
