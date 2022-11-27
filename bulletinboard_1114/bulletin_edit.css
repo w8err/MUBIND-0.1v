@@ -39,6 +39,8 @@ body { margin: 0px; height:100%; }
 
 /** 글쓰기 테이블 디자인 **/
 
+#real_input { display:none;}
+
 .thead_area { width: 610px; height: 300px; margin: auto; }
 
 .thead { width: 600px; height:300px; } 

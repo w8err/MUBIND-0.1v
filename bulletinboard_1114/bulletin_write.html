@@ -46,12 +46,13 @@
       <td colspan="2" align=right>
         <input id="chk_anony" type="checkbox" value="익명">
         <label for="chk_anony">닉네임 비공개</label>
-        <a href="bulletin.html"><input type="button" id="submit_btn" value="수정하기"></a>
+        <a href="bulletin.html"><input type="button" id="submit_btn" value="글쓰기"></a>
         <a href="bulletin.html"><input type="button" id="back_btn" value="목록으로"></a>
       </td>
     </tr>
   </table>
   </div>
+
   <script>
     // #img_btn을 클릭하면 #real_input을 호출함
 const realInput = document.getElementById('real_input');
@@ -72,7 +73,6 @@ browseBtn.addEventListener('click',()=>{
     preview.readAsDataURL(document.getElementById('real_input').files[0]);
     
   }
-
   </script>
 </body>
 

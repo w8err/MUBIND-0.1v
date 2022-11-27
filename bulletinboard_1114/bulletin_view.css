@@ -59,6 +59,23 @@ select { width: 100px; height: 33px; padding-left: 10%; outline: none; border:no
 
 .edit_cont { width: 100%; height: 100%; outline: none; } 
 
+#submit_btn, #back_btn {
+  cursor: pointer;
+  width: 100px; height: 40px;
+  border-radius: 100px; border: none;
+}
+
+#submit_btn:hover, #back_btn:hover {
+  transition: 0.2s;
+  color: #fff; background-color: blueviolet;
+}
+#submit_btn:not(:hover), #back_btn:not(:hover) {
+  transition: 0.2s;
+}
+#submit_btn:active, #back_btn:active {
+  color: #fff; background-color: #000;
+}
+
 
 /** body 태그를 통해서 중앙정렬 ==> login 묶음 시리즈 **/
 
